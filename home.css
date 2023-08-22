@@ -19,6 +19,7 @@
     --download:var(--scirc);
     --navcolor: rgb(93, 161, 216);
     --pcolor:var(--gfont);
+    --icon:url('img/black menu.png')
     
 }
 .dark{
@@ -41,6 +42,7 @@
     --menucolor:white;
     --navcolor:transparent;
     --pcolor:rgb(18, 111, 58);
+    --icon:url('img/white menu.png')
 }
 body{
     background:var(--bg);
@@ -89,6 +91,9 @@ body::-webkit-scrollbar{
 .nav-link p{
     font-weight: 600;
     font-size: 18px;
+}
+.navbar-toggler-icon{
+    background-image: var(--icon);
 }
 
 #img2{
