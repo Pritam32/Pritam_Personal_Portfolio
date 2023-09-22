@@ -80,7 +80,7 @@ body::-webkit-scrollbar{
 .a1{
     position: relative;
     z-index: 1;
-    width:85%;
+    width:90%;
     height:82vh;
     margin-left:80px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
