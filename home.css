@@ -23,10 +23,10 @@
     
 }
 .dark{
-    --bg:linear-gradient(to right,#00081c,#09173d, #0a034a,#260052,#4f024f);
+    --bg:#09173d;
     --navhead:white;
-    --fcirc:transparent;
-    --scirc:transparent;
+    --fcirc:linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+    --scirc:linear-gradient(to top left,#3a1c71, #d76d77, #ffaf7b);
     --download:#FDA1A2;
     --gfont:#83e329;
     --wfont:white;
@@ -304,7 +304,7 @@ body::before{
     left:0;
     width: 100%;
     height: 100%;
-    background-color:var(--fcirc);
+    background:var(--fcirc);
     clip-path: circle(16% at 10% 10%);
 }
 body::after{
@@ -314,7 +314,8 @@ body::after{
     left:0;
     width: 100%;
     height: 100%;
-    background-color:var(--scirc);
+    background:var(--scirc);
+    background-size: auto;
     clip-path: circle(23% at right 72%);
 }
 
