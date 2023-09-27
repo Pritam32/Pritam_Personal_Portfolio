@@ -22,7 +22,7 @@ toggle.addEventListener("click",()=>{
   function sleep(ms){
     return new Promise((resolve)=>setTimeout(resolve,ms));
   }
-  const phrases=["Pritam Kumar","a Developer","a Freelancer"];
+  const phrases=["Pritam Kumar Maity","a Developer","a Freelancer"];
   const el=document.getElementById("typewriter");
   let sleepTime=100;
   let curPhraseIndex=0;
